@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer{
+    margin-top: auto;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-image{
+    padding-bottom: 5px;
+}
+
+.copy{
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-products{
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+
+.container-products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../imagenes/backGroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.product{
+    margin: 30px;
+}
+
+/*Carrito*/
+
+
+.car-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.car-title{
+    text-align: center;
+    margin: 50px;
+}
+
+/*Clase para ocultar elementos*/
+
+.border{
+    border: 30px black solid;
+}
+
+.car-products{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.car-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightslategray;
+    padding: 20px;
+    
+}
+
+.car-product-image{
+    width: 100px;
+    height: 100px;
+}
+
+.delete-product{
+    cursor: pointer;
+}
+
+#action-car{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-car-left{
+    padding: 20px
+}
+
+.action-car-rigth{
+    padding: 20px;
+}
+
+.disabled{
+    display: none;
+}
+
