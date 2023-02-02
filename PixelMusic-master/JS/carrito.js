@@ -119,6 +119,7 @@ function buyProducts(){
 }
 
 
+
 function thanksForYourPurchase () {
     Swal.fire(
         'Muchas gracias por tu compra',
